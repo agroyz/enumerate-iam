@@ -496,10 +496,6 @@ BRUTEFORCE_TESTS = {
         "list_builds",
         "list_fleets"
     ],
-    "globalaccelerator": [
-        "describe_accelerator_attributes",
-        "list_accelerators"
-    ],
     "glue": [
         "get_catalog_import_status",
         "get_classifiers",
@@ -674,7 +670,7 @@ BRUTEFORCE_TESTS = {
         "describe_log_groups",
         "describe_metric_filters",
         "describe_queries",
-        "describe_resource_policies"
+        "describe_resource_policies",
     ],
     "machinelearning": [
         "describe_batch_predictions",
@@ -937,7 +933,7 @@ BRUTEFORCE_TESTS = {
         "list_resolver_rules"
     ],
     "s3": [
-        "list_buckets"
+        "list_buckets",
     ],
     "sagemaker": [
         "list_algorithms",
