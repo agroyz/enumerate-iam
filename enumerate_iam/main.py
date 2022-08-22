@@ -204,7 +204,7 @@ def configure_logging():
     urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
     # import botocore.vendored.requests.packages.urllib3 as urllib3
-    urllib3.disable_warnings(botocore.vendored.requests.packages.urllib3.exceptions.InsecureRequestWarning)
+    #urllib3.disable_warnings(botocore.vendored.requests.packages.urllib3.exceptions.InsecureRequestWarning)
 
 
 def enumerate_iam(access_key, secret_key, session_token, region):
